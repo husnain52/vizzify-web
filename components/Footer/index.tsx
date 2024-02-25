@@ -35,7 +35,7 @@ const Footer = () => {
                     className="dark:hidden"
                   />
                   <img
-                    src="/images/logo/logo.png"
+                    src="/images/logo/logo-dark.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />

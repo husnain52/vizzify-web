@@ -29,17 +29,13 @@ const Footer = () => {
                 className="animate_top w-1/2 lg:w-1/4"
               >
                 <a href="index.html" className="relative">
-                  <Image
-                    width={110}
-                    height={80}
-                    src="/images/logo/logo-light.png"
+                  <img
+                    src="/images/logo/logo.png"
                     alt="Logo"
                     className="dark:hidden"
                   />
-                  <Image
-                    width={110}
-                    height={80}
-                    src="/images/logo/logo-dark.png"
+                  <img
+                    src="/images/logo/logo.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
@@ -56,7 +52,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  hello@vizzifyweb.com
                 </a>
               </motion.div>
 
@@ -207,7 +203,7 @@ const Footer = () => {
                       <input
                         type="text"
                         placeholder="Email address"
-                        className="w-full rounded-full border border-stroke px-6 py-3 shadow-solid-11 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
+                        className="w-full rounded-full border border-stroke px-6 py-3 shadow-vizzifyweb-11 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
                       />
 
                       <button
@@ -301,7 +297,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                &copy; {new Date().getFullYear()} VizzifyWeb. All rights reserved
               </p>
             </motion.div>
 
